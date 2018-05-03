@@ -9,15 +9,15 @@ private    T tok;
 */
  
  // costruttori
-public Counter() {
-		super();
+	public Counter() {
+		this(new Token());
 	}
 	
-public Counter(Token token) {
+	public Counter(Token token) {
 		super(token);
 	}
 	
-public Counter(Sieve<Token> sieve) {
+	public Counter(Sieve<Token> sieve) {
 		super(sieve);
 	}
 
