@@ -1,6 +1,7 @@
 package primes.goldbach ;
 
 import java.math.BigInteger ;
+import primes.Item ;
 
 class Counter extends primes.erathostenes.Counter {
 private Sieve sieve;

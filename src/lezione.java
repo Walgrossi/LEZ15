@@ -3,7 +3,7 @@
  * @author Marco Pedicini
  **/
 
-import primes.erathostenes.Sieve ;
+import primes.goldbach.Sieve ;
 
 public class lezione {
 	
@@ -11,7 +11,7 @@ public class lezione {
 		Sieve lista ;
 		
 		lista = new Sieve(args) ;
-		
+	// test
 //		lista.printmatrix();
 		
 		return ;
